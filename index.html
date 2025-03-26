@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Vinicius Cardoso</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tudo sobre Vinzarto</h1>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img class="responsiva" id="fotoeu" src="img/foto1.webp">
+        </div>
+        <div class="box-txt">
+            <span>Nome: Vinicius Cardoso <br> Apelido: Vinzarto</span>
+            <h2> Algumas curiosidades <br> sobre mim: </h2>
+            <p> • Eu sou o Vinicius, formado em Administração, e tenho uma grande paixão por animes e jogos.Além disso, sou praticante de Muay Thai, o que me ajuda a manter o corpo e a mente em equilíbrio.
+            Nos meus momentos de lazer, gosto de fazer cosplay dos personagens que mais amo, trazendo à vida aqueles que me inspiram.
+            Sou uma pessoa que valoriza tanto o desenvolvimento pessoal quanto a diversão,buscando equilíbrio entre os compromissos do dia a dia e minhas paixões. Além da luta,
+            que me dá disciplina e força, e dos cosplays, que me permite expressar minha criatividade, 
+            sempre estou em busca de novas experiências e desafios, seja nos jogos, nos animes ou em qualquer outra coisa que me motive. 
+            </p>                  
+            <a href="bio.html" class="btn-hero">Minha Bio</a>
+            <a href="portfolio.html" class="btn-hero">Portfólios</a>
+            <a href="novidades.html" class="btn-hero">Novidades</a>     
+        </div>
+    </section>
+
+    <section class="curiosidades">
+        <div class="box-item">
+            <h3>Top 5 Jogos</h3>
+            <u id="jogo1">1° - The Elder Scrolls V: Skyrim</u>
+            <br><br>
+            <u id="jogo2">2° - Kingdom Come: Deliverance II</u>
+            <br><br>
+            <u id="jogo3">3° - Marvel Rivals</u>
+            <br><br>
+            <u id="jogo4">4° - Sly 3: Honor Among Thieves</u>
+            <br><br>
+            <u id="jogo5">5° - Super Smash Bros. Ultimate</u>
+        </div>
+        <div class="box-item">
+            <h3>Top 5 Animes</h3>
+            <u id="anime1">1° - One Piece</u>
+            <br><br>
+            <u id="anime2">2° - Berserk</u>
+            <br><br>
+            <u id="anime3">3° - Hunter X Hunter</u>
+            <br><br>
+            <u id="anime4">4° - Solo Leveling</u>
+            <br><br>
+            <u id="anime5">5° - Great Teacher Onizuka</u>
+        </div>
+        <div class="box-item">
+            <h3>Top 5 Board Games/Card Games</h3>
+            <u id="bg1">1° - Magic: The Gathering</u>
+            <br><br>
+            <u id="bg2">2° - Coup - 2ª Edição</u>
+            <br><br>
+            <u id="bg3">3° - Root Board Game</u>
+            <br><br>
+            <u id="bg4">4° - Cyclades: Legendary</u>
+            <br><br>
+            <u id="bg5">5° - Survive: Fuga de Atlântida!</u>
+        </div>
+        <a href="contatos.html" class="m-top btn-hero">Contatos</a>
+    </section>
+
+    <footer>
+        <p> 2025 © Tudo sobre Vinzarto.  Todos os direitos reservados. </p>
+    </footer>
+
+    <div class="whats">
+        <a target="_blank" href="https://wa.me/5521987022466?text=Qualquer%20d%C3%BAvida%20pode%20me%20contatar!">
+            <img src="img/iconv.png" width="50">
+        </a>
+    </div>
+
+    <script>
+        // PEGAR O ELEMENTO
+        const fotoeu = document.getElementById('fotoeu');
+        // EVENTO QUANDO MOUSE ESTIVER POR CIMA IMAGEM
+        fotoeu.addEventListener('mouseover', function(){
+            fotoeu.src = "img/foto2.webp";
+        });
+        // EVENTO QUANDO MOUSE SAIR DA IMAGEM
+        fotoeu.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const jogo1 = document.getElementById('jogo1');
+        jogo1.addEventListener('mouseover', function(){
+            fotoeu.src = "img/jogos/jogo1.webp";
+        });
+        jogo1.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const jogo2 = document.getElementById('jogo2');
+        jogo2.addEventListener('mouseover', function(){
+            fotoeu.src = "img/jogos/jogo2.webp"  ;
+        });
+        jogo2.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const jogo3 = document.getElementById('jogo3');
+        jogo3.addEventListener('mouseover', function(){
+            fotoeu.src = "img/jogos/jogo3.webp"  ;
+        });
+        jogo3.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const jogo4 = document.getElementById('jogo4');
+        jogo4.addEventListener('mouseover', function(){
+            fotoeu.src = "img/jogos/jogo4.webp"  ;
+        });
+        jogo4.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const jogo5 = document.getElementById('jogo5');
+        jogo5.addEventListener('mouseover', function(){
+            fotoeu.src = "img/jogos/jogo5.webp"  ;
+        });
+        jogo5.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const anime1 = document.getElementById('anime1');
+        anime1.addEventListener('mouseover', function(){
+            fotoeu.src = "img/animes/anime1.webp";
+        });
+        anime1.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const anime2 = document.getElementById('anime2');
+        anime2.addEventListener('mouseover', function(){
+            fotoeu.src = "img/animes/anime2.webp"  ;
+        });
+        anime2.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const anime3 = document.getElementById('anime3');
+        anime3.addEventListener('mouseover', function(){
+            fotoeu.src = "img/animes/anime3.webp"  ;
+        });
+        anime3.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const anime4 = document.getElementById('anime4');
+        anime4.addEventListener('mouseover', function(){
+            fotoeu.src = "img/animes/anime4.webp"  ;
+        });
+        anime4.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const anime5 = document.getElementById('anime5');
+        anime5.addEventListener('mouseover', function(){
+            fotoeu.src = "img/animes/anime5.webp"  ;
+        });
+        anime5.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const bg1 = document.getElementById('bg1');
+        bg1.addEventListener('mouseover', function(){
+            fotoeu.src = "img/bg/bg1.webp";
+        });
+        bg1.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const bg2 = document.getElementById('bg2');
+        bg2.addEventListener('mouseover', function(){
+            fotoeu.src = "img/bg/bg2.webp"  ;
+        });
+        bg2.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const bg3 = document.getElementById('bg3');
+        bg3.addEventListener('mouseover', function(){
+            fotoeu.src = "img/bg/bg3.webp"  ;
+        });
+        bg3.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const bg4 = document.getElementById('bg4');
+        bg4.addEventListener('mouseover', function(){
+            fotoeu.src = "img/bg/bg4.webp"  ;
+        });
+        bg4.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+        const bg5 = document.getElementById('bg5');
+        bg5.addEventListener('mouseover', function(){
+            fotoeu.src = "img/bg/bg5.webp"  ;
+        });
+        bg5.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto1.webp";
+        });
+
+    </script>   
+</body>
+</html>

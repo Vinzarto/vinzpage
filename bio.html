@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Vinicius Cardoso</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tudo sobre Vinzarto</h1>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img class="responsiva" id="fotoeu" src="img/foto3.webp">
+        </div>
+        <div class="box-txt">
+            <h2> Por dentro da  <br> minha Biografia: </h2>
+            <table>
+                <table border="1" width="60%" height="100">
+             <thead>
+                <tr>
+                    <td>Nome:</td>
+                    <td>César Vinicius Ferreira Cardoso</td> 
+                </tr>
+                </thead> 
+                <tbody><tr>
+                    <td>Idade:</td>
+                    <td>29 anos (12/01/1996)</td>  
+                </tr>
+                <tr>
+                    <td>Experiência com TI:</td>
+                    <td>Nível Intermediário - Curso Técnico de TI em 2015</td>
+                </tr>
+                <tr>
+                    <td>Faculdade Anterior:</td>
+                    <td>Administração na Universade Estácio de Sá em 2014</td>
+                </tr>
+                <tr>
+                    <td>Especialização:</td>
+                    <td>MBA/Pós-graduação Lato Sensu em Gerenciamento de Projetos</td>
+                </tr>
+            </tbody>
+            </table>
+            <h4>Contando um pouco da minha jornada e conquistas até agora:</h4>
+            <p> Em 2014 iniciei minha jornada acadêmica, fiz primeira Graduação em Administração, onde me formei com louvor em 2018. Poucos anos depois iniciei minha especialização MBA 
+              em Gereciamento de Projetos. Fiz diversos outros cursos desde inglês até mesmo curso técnico no Senac, aonde cursei Tecnologia da Informação. 
+                Atualmente trabalho direto com a área que me especializei, sou empresário há mais de 10 anos, aonde me consagro até hoje. 
+              <br>Falando um pouco dos meus hobbies, sou viciado em jogos e animes, também sou extremamente dedicado as artes marciais( Mais de 8 anos de Muay Thai). 
+                Sou competidor Cosplay, gosto de participar e competir em diversos eventos profissionais. 
+                Por último e não menos importante, eu amo meu cachorro chamado Luffy (futuro Rei dos Piratas), 
+                ele possui 4 anos e é um chihuahua muito inteligente, inclusive ele adora se fantasiar e participar dos eventos comigo.
+            </p>                   
+            <a href="index.html" class="btn-hero">Curiosidades</a>
+            <a href="portfolio.html" class="btn-hero">Portfólios</a>
+            <a href="novidades.html" class="btn-hero">Novidades</a>     
+            <span> Para mais detalhes sobre meu currículo, dedico abaixo essas abas. </span>
+        </div>
+    </section>
+
+    <section class="curiosidades">
+        <div class="box-item">
+            <h3>Certificações</h3>
+            <p>Bacharel em Administração - Estácio</p>
+            <p>MBA em Gerenciamento de Projetos - Estácio</p>
+            <p>Cursos de especialização em Gestão de Processos</p>
+            <p>Curso Técnico em Tecnologia da Informação - Senac</p>
+            <p>Nível de Inglês Avançado - Wise Up</p>
+            <p>Pacote Office Avançado</p>
+            <p>Certificações Cisco</p>         
+        </div>
+        <div class="box-item">
+            <h3>Experiências Profissionais</h3>
+            <p>Primeiro trabalho aos 16 anos como ajudante de Oficina</p>
+            <p>Meados dos 17 anos, trabalhava em escritório administrativo</p>
+            <p>Aos 19 anos virei empreendedor na área de Hortifrutis</p>
+            <p>No final da faculdade, estagiei por anos como Analista de processos</p>
+            <p>Aos 22 abri minha empresa trabalhando com Licitações</p>
+            <p>Após MBA, comecei atuar na área de projetos</p>
+            <p>Atualmente mantenho meus negócios e atuo como analista de Projetos.</p>
+
+        </div>
+        <div class="box-item">
+            <h3>Aptidões e Talentos</h3>
+            <p>Sempre tive vocação para Liderança</p>
+            <p>Me destaco por minhas habilidades de Comunicação</p>
+            <p>Capacidade de identificar e solucionar problemas</p>
+            <p>Ótica sob uma visão Sistêmica ou Holística</p>
+            <p>Compreensão empática</p>
+            <p>Trabalho e comunicação em equipe</p>
+            <p>Proatividade</p>
+        </div>
+        <a href="contatos.html" class="m-top btn-hero">Contatos</a>
+    </section>
+
+    <footer>
+        <p> 2025 © Tudo sobre Vinzarto.  Todos os direitos reservados. </p>
+    </footer>
+
+    <div class="whats">
+        <a target="_blank" href="https://wa.me/5521987022466?text=Qualquer%20d%C3%BAvida%20pode%20me%20contatar!">
+            <img src="img/iconv.png" width="50">
+        </a>
+    </div>
+
+    <script>
+        // PEGAR O ELEMENTO
+        const fotoeu = document.getElementById('fotoeu');
+        // EVENTO QUANDO MOUSE ESTIVER POR CIMA IMAGEM
+        fotoeu.addEventListener('mouseover', function(){
+            fotoeu.src = "img/foto4.webp";
+        });
+        // EVENTO QUANDO MOUSE SAIR DA IMAGEM
+        fotoeu.addEventListener('mouseout', function(){
+            fotoeu.src = "img/foto3.webp";
+        });
+
+    </script>   
+</body>
+</html>
